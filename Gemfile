@@ -35,8 +35,8 @@ gem 'jbuilder', '2.6.4'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', '9.0.6', platforms::mri
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger consol
+  gem 'byebug',  '9.0.6', platform: :mri
   # Adds support for Capybara system testing and selenium driver
 end
 
