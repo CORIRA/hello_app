@@ -5,4 +5,5 @@ class ApplicationController < ActionController::Base
   end
   def hola
     render html:"hola, mundo!"
+  end
 end
